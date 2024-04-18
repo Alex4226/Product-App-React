@@ -1,0 +1,50 @@
+.card-product {
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+}
+
+.card-image {
+    margin: 10px ;
+}
+
+.separation-line {
+    margin: 0px 20px 10px 20px;
+}
+
+.card-title {
+    color: black;
+    margin: 0px 20px;
+    text-align: center;
+    height: 100px;
+    justify-self: center;
+}
+
+.card-price {
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-rating {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-rating {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-rating-icon {
+    width: 20px;
+    height: 20px;
+}

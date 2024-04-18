@@ -1,0 +1,13 @@
+.nav-bar {
+    background-color: gray;
+    margin: 0px;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: center ;
+}
+
+.nav-title {
+    font-size: 24px;
+    color: white;
+    margin: 0px;
+}

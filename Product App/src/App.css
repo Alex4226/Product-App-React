@@ -1,0 +1,25 @@
+.product-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 12px;
+}
+
+@media (max-width: 960px) {
+  .product-card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 750px) {
+  .product-card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card-container {
+    grid-template-columns: 1fr;
+  }
+}
